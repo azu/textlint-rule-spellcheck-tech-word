@@ -1,0 +1,32 @@
+{
+  "name": "spellcheck-tech-word-textlint-rule",
+  "description": "textlint rule: spell check technical word for japanese.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/azu/spellcheck-tech-word-textlint-rule/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/spellcheck-tech-word-textlint-rule.git"
+  },
+  "main": "spellcheck-tech-word.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/spellcheck-tech-word-textlint-rule/issues"
+  },
+  "devDependencies": {
+    "espower-loader": "^0.10.0",
+    "intelli-espower-loader": "^0.5.0",
+    "mocha": "^2.1.0",
+    "power-assert": "^0.10.0",
+    "textlint": "^1.0.1"
+  },
+  "dependencies": {
+    "technical-word-rules": "git://github.com/azu/technical-word-rules"
+  }
+}
