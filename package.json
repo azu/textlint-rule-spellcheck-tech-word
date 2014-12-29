@@ -1,6 +1,10 @@
 {
   "name": "spellcheck-tech-word-textlint-rule",
   "description": "textlint rule: spell check technical word for japanese.",
+  "keywords": [
+    "textlint",
+    "japanese"
+  ],
   "version": "1.0.0",
   "homepage": "https://github.com/azu/spellcheck-tech-word-textlint-rule/",
   "repository": {

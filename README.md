@@ -2,17 +2,20 @@
 
 This module for [azu/textlint](https://github.com/azu/textlint "azu/textlint").
 
-
-
-- [ ] Write a project description
+This rules provide tech word checking for web engineer.
 
 ## Installation
 
-- [ ] Describe the installation process
+```
+npm install textlint -g
+npm install spellcheck-tech-word-textlint-rule --save-dev
+```
 
 ## Usage
 
-- [ ] Write usage instructions
+```
+$ textlint --rulesdir ./node_modules file.md
+```
 
 ## Contributing
 
