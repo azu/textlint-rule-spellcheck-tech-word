@@ -1,4 +1,4 @@
-# spellcheck-tech-word textlint rule
+# spellcheck-tech-word textlint rule [![Build Status](https://travis-ci.org/azu/spellcheck-tech-word-textlint-rule.svg)](https://travis-ci.org/azu/spellcheck-tech-word-textlint-rule)
 
 This module for [azu/textlint](https://github.com/azu/textlint "azu/textlint").
 
