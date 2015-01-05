@@ -4,6 +4,9 @@ var assert = require("power-assert");
 var fs = require("fs"),
     path = require("path");
 var textlint = require("textlint").textlint;
+
+// ✘ HTML Import
+// ✔ HTML Imports
 describe("spellcheck-tech-word.js", function () {
     beforeEach(function () {
         textlint.setupRules({
