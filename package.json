@@ -28,9 +28,9 @@
     "intelli-espower-loader": "^0.5.0",
     "mocha": "^2.1.0",
     "power-assert": "^0.10.0",
-    "textlint": "^1.0.1"
+    "textlint": "^1.4.1"
   },
   "dependencies": {
-    "technical-word-rules": "git://github.com/azu/technical-word-rules"
+    "technical-word-rules": "azu/technical-word-rules"
   }
 }

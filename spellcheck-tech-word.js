@@ -8,6 +8,7 @@ module.exports = function (context) {
     var exports = {};
     exports[context.Syntax.Str] = function (node) {
         var text = context.getSource(node);
+        console.log(text);
         for (var i = 0; i < dictionaryItems.length; i++) {
             var dictionary = dictionaryItems[i];
             var query = new RegExp(dictionary.pattern, dictionary.flag);
