@@ -31,6 +31,7 @@
     "textlint": "^1.4.1"
   },
   "dependencies": {
-    "technical-word-rules": "azu/technical-word-rules"
+    "technical-word-rules": "azu/technical-word-rules",
+    "textlint-rule-helper": "^1.1.2"
   }
 }
