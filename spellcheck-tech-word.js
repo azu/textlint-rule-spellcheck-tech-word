@@ -18,7 +18,10 @@ module.exports = function (context) {
 
         results.forEach(function (/*SpellCheckResult*/result) {
             // line, column
-            context.report(node, (new context.RuleError(result.actual + " => " + result.expected, result.matchedStartIndexk)));
+            context.report(node, new context.RuleError(result.actual + " => " + result.expected, {
+                line: result.paddingLine,
+                column: result.paddingColumn
+            }));
         });
     };
     return exports;

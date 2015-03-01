@@ -25,13 +25,13 @@
   },
   "devDependencies": {
     "espower-loader": "^0.10.0",
-    "intelli-espower-loader": "^0.5.0",
+    "intelli-espower-loader": "^0.6.0",
     "mocha": "^2.1.0",
     "power-assert": "^0.10.0",
-    "textlint": "^1.4.1"
+    "textlint": "^3.1.0"
   },
   "dependencies": {
-    "spellcheck-technical-word": "^1.0.1",
+    "spellcheck-technical-word": "^1.1.0",
     "textlint-rule-helper": "^1.1.2"
   }
 }
