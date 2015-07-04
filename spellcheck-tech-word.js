@@ -10,7 +10,7 @@ module.exports = function (context) {
     var exports = {};
     var Syntax = context.Syntax;
     exports[context.Syntax.Str] = function (node) {
-        if (helper.isChildNode(node, [Syntax.Link, Syntax.Image, Syntax.BlockQuote])) {
+        if (helper.isChildNode(node, [Syntax.Link, Syntax.Image, Syntax.BlockQuote, Syntax.Emphasis])) {
             return;
         }
         var text = context.getSource(node);
