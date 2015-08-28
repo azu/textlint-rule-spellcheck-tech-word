@@ -1,4 +1,4 @@
-# spellcheck-tech-word textlint rule [![Build Status](https://travis-ci.org/azu/spellcheck-tech-word-textlint-rule.svg)](https://travis-ci.org/azu/spellcheck-tech-word-textlint-rule)
+# spellcheck-tech-word textlint rule [![Build Status](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word.svg)](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word)
 
 This module for [azu/textlint](https://github.com/azu/textlint "azu/textlint").
 
@@ -8,13 +8,13 @@ This rules provide tech word checking for web engineer.
 
 ```
 npm install textlint -g
-npm install spellcheck-tech-word-textlint-rule --save-dev
+npm install textlint-rule-spellcheck-tech-word --save-dev
 ```
 
 ## Usage
 
 ```
-$ textlint --rulesdir ./node_modules/spellcheck-tech-word-textlint-rule file.md
+$ textlint --rulesdir ./node_modules/textlint-rule-spellcheck-tech-word file.md
 ```
 
 ## Contributing
