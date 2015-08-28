@@ -20,6 +20,19 @@ npm install textlint-rule-spellcheck-tech-word --save-dev
 $ textlint --rule spellcheck-tech-word file.md
 ```
 
+## Example
+
+See [example/](example/)
+
+```sh
+$ textlint --rule spellcheck-tech-word README.md
+
+textlint-rule-spellcheck-tech-word/example/README.md
+  3:4  error  Java Script => JavaScript
+
+✖ 1 problem
+```
+
 ## Contributing
 
 1. Fork it!
