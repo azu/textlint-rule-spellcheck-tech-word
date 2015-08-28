@@ -14,7 +14,7 @@ npm install textlint-rule-spellcheck-tech-word --save-dev
 ## Usage
 
 ```
-$ textlint --rulesdir ./node_modules/textlint-rule-spellcheck-tech-word file.md
+$ textlint --rule spellcheck-tech-word file.md
 ```
 
 ## Contributing
