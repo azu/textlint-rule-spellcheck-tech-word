@@ -1,8 +1,11 @@
-# spellcheck-tech-word textlint rule [![Build Status](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word.svg)](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word)
+#  textlint-rule-spellcheck-tech-word[![Build Status](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word.svg)](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word)
 
-This module for [azu/textlint](https://github.com/azu/textlint "azu/textlint").
+This rule module for [azu/textlint](https://github.com/azu/textlint "azu/textlint").
 
-This rules provide tech word checking for web engineer.
+This rule provide tech word checking for web engineer.
+
+- [azu/technical-word-rules](https://github.com/azu/technical-word-rules "azu/technical-word-rules")の辞書を使ったtextlint用のルールです
+- [WEB+DB PRESS用語統一ルール](https://gist.github.com/inao/f55e8232e150aee918b9 "WEB+DB PRESS用語統一ルール")やJavaScript関連の用語などを含んでいます。
 
 ## Installation
 
