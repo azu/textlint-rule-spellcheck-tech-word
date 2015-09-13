@@ -10,14 +10,14 @@ This rule provide tech word checking for web engineer.
 ## Installation
 
 ```
-npm install textlint -g
-npm install textlint-rule-spellcheck-tech-word --save-dev
+npm install textlint-rule-spellcheck-tech-word
 ```
 
 ## Usage
 
 ```
-$ textlint --rule spellcheck-tech-word file.md
+npm i --save-dev textlint textlint-rule-spellcheck-tech-word
+textlint --rule spellcheck-tech-word file.md
 ```
 
 ## Example
