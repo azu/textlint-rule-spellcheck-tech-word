@@ -37,7 +37,15 @@ textlint-rule-spellcheck-tech-word/example/README.md
 
 Q. [azu/textlint-plugin-JTF-style](https://github.com/azu/textlint-plugin-JTF-style "azu/textlint-plugin-JTF-style")と衝突する
 
-A. カタカナの表記ルールがJTFスタイルガイドが参照する[外来語（カタカナ）表記ガイドライン](http://www.jtca.org/standardization/ "外来語（カタカナ）表記ガイドライン")と[azu/technical-word-rules](https://github.com/azu/technical-word-rules "azu/technical-word-rules")の辞書が含む[WEB+DB PRESS用語統一ルール](https://gist.github.com/inao/f55e8232e150aee918b9 "WEB+DB PRESS用語統一ルール")で異なるために衝突する場合があります。
+A. カタカナの表記ルールが異なるために両方のルールを適応すると衝突することがあります
+
+例)
+
+- インターフェイス (JTFスタイルガイド)
+- インタフェース   (WEB+DB)
+
+
+JTFスタイルガイドが参照する[外来語（カタカナ）表記ガイドライン](http://www.jtca.org/standardization/ "外来語（カタカナ）表記ガイドライン")と[azu/technical-word-rules](https://github.com/azu/technical-word-rules "azu/technical-word-rules")の辞書が含む[WEB+DB PRESS用語統一ルール](https://gist.github.com/inao/f55e8232e150aee918b9 "WEB+DB PRESS用語統一ルール")で異なるため発生しています。
 
 そのため、`jtf-style`の一部ルールを無効化するか、どちらか片方を利用するように設定する必要があります。
 
