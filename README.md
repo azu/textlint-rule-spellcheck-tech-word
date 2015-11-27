@@ -33,6 +33,28 @@ textlint-rule-spellcheck-tech-word/example/README.md
 ✖ 1 problem
 ```
 
+## FAQ
+
+Q. [azu/textlint-plugin-JTF-style](https://github.com/azu/textlint-plugin-JTF-style "azu/textlint-plugin-JTF-style")と衝突する
+
+A. カタカナの表記ルールがJTFスタイルガイドが参照する[外来語（カタカナ）表記ガイドライン](http://www.jtca.org/standardization/ "外来語（カタカナ）表記ガイドライン")と[azu/technical-word-rules](https://github.com/azu/technical-word-rules "azu/technical-word-rules")の辞書が含む[WEB+DB PRESS用語統一ルール](https://gist.github.com/inao/f55e8232e150aee918b9 "WEB+DB PRESS用語統一ルール")で異なるために衝突する場合があります。
+
+そのため、`jtf-style`の一部ルールを無効化するか、どちらか片方を利用するように設定する必要があります。
+
+```js
+{
+  "plugins": [
+    "jtf-style"
+  ],
+  "rules": {
+    "spellcheck-tech-word": true,
+    "jtf-style/2.1.2.漢字": false,
+    "jtf-style/2.1.5.カタカナ": false,
+    "jtf-style/2.1.6.カタカナの長音": false,
+  }
+}
+```
+
 ## Contributing
 
 1. Fork it!
