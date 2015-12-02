@@ -1,6 +1,6 @@
 #  textlint-rule-spellcheck-tech-word[![Build Status](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word.svg)](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word)
 
-This rule module for [azu/textlint](https://github.com/azu/textlint "azu/textlint").
+This rule module for [azu/textlint](https://github.com/textlint/textlint "azu/textlint").
 
 This rule provide tech word checking for web engineer.
 
