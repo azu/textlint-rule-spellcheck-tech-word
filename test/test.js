@@ -1,8 +1,8 @@
 // LICENSE : MIT
 "use strict";
 var assert = require("power-assert");
-var fs = require("fs"),
-    path = require("path");
+var fs = require("fs");
+var path = require("path");
 var textlint = require("textlint").textlint;
 
 // ✘ HTML Import
