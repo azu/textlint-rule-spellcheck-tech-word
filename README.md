@@ -1,4 +1,4 @@
-#  textlint-rule-spellcheck-tech-word[![Build Status](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word.svg)](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word)
+# textlint-rule-spellcheck-tech-word [![textlint rule](https://img.shields.io/badge/textlint-fixable-green.svg?style=social)](https://textlint.github.io/)  [![Build Status](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word.svg)](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word)
 
 This rule module for [azu/textlint](https://github.com/textlint/textlint "azu/textlint").
 
@@ -32,6 +32,12 @@ textlint-rule-spellcheck-tech-word/example/README.md
 
 ✖ 1 problem
 ```
+
+## Fixable
+
+[![textlint rule](https://img.shields.io/badge/textlint-fixable-green.svg?style=social)](https://textlint.github.io/) 
+
+`textlint --fix` での[自動修正](https://github.com/textlint/textlint/blob/master/docs/rule-fixer.md)に対応しています。
 
 ## FAQ
 
