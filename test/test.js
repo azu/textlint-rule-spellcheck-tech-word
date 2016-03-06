@@ -11,7 +11,7 @@ describe("spellcheck-tech-word.js", function () {
     beforeEach(function () {
         textlint.setupRules({
             // rule-key : rule
-            "spellcheck-tech-word": require("../spellcheck-tech-word")
+            "spellcheck-tech-word": require("../spellcheck-tech-word").linter
         });
     });
     afterEach(function () {
