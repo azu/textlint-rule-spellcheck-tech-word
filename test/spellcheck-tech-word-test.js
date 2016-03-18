@@ -32,6 +32,26 @@ tester.run("spellcheck-tech-word", rule, {
                     column: 4
                 }
             ]
+        },
+        {
+            text: "git is a tool.\n" +
+            "texlint check your texts.\n" +
+            "browserify is bundler.\n",
+            output: "Git is a tool.\n" +
+            "texlint check your texts.\n" +
+            "Browserify is bundler.\n",
+            errors: [
+                {
+                    message: "git => Git",
+                    line: 1,
+                    column: 1
+                },
+                {
+                    message: "browserify => Browserify",
+                    line: 3,
+                    column: 1
+                },
+            ]
         }
     ]
 });
