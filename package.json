@@ -36,6 +36,6 @@
     "textlint-rule-helper": "^1.1.2"
   },
   "peerDependencies": {
-    "textlint": ">= 6.0.0"
+    "textlint": ">= 5.6.0"
   }
 }
