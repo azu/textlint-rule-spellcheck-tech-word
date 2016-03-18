@@ -18,10 +18,12 @@ function reporter(context) {
         var results = spellCheck(text);
         results.forEach(function (/*SpellCheckResult*/result) {
             // line, column
+            var fixCommand = fixer.replaceTextRange([
+                result.paddingIndex, result.paddingIndex + result.actual.length
+            ], result.expected);
             context.report(node, new context.RuleError(result.actual + " => " + result.expected, {
-                line: result.paddingLine,
-                column: result.paddingColumn,
-                fix: fixer.replaceTextRange([result.paddingColumn, result.paddingColumn + result.actual.length], result.expected)
+                index: result.paddingIndex,
+                fix: fixCommand
             }));
         });
     };
