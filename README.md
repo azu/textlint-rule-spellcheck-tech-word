@@ -1,3 +1,6 @@
+Deprecated: [Proofdict](https://github.com/proofdict/proofdict)を使っているためメンテナンスしていません。
+
+
 # textlint-rule-spellcheck-tech-word [![textlint rule](https://img.shields.io/badge/textlint-fixable-green.svg?style=social)](https://textlint.github.io/)  [![Build Status](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word.svg)](https://travis-ci.org/azu/textlint-rule-spellcheck-tech-word)
 
 This rule module for [azu/textlint](https://github.com/textlint/textlint "azu/textlint").
